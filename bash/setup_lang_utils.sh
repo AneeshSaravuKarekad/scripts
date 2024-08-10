@@ -12,3 +12,4 @@ setup_lang_utils() {
 }
 
 setup_lang_utils
+echo -e "${GREEN}[INFO]${NC} Language utilities setup complete."

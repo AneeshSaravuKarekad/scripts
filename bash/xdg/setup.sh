@@ -15,7 +15,7 @@ setup_xdg_dirs() {
     mkdir -p ~/public
     mkdir -p ~/videos
     mkdir -p ~/templates
-    
+
     cp ~/scripts/bash/utils/user-dirs.dirs ~/.config/user-dirs.dirs
     cp ~/scripts/bash/utils/user-dirs.locale ~/.config/user-dirs.locale
 }
