@@ -13,7 +13,7 @@ setup_fonts() {
 
 install_utils() {
     echo -e "${GREEN}[INFO]${NC} Installing utilities..."
-    sudo pacman -S --needed htop bat firefox neovim wezterm yazi
+    sudo pacman -S --needed htop bat firefox neovim wezterm yazi eza
     paru -S --needed xdg-ninja
 }
 
